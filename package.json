@@ -1,28 +1,35 @@
 {
-  "name": "@socket.io/component-emitter",
-  "description": "Event emitter",
-  "version": "3.1.2",
-  "license": "MIT",
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
-  },
-  "component": {
-    "scripts": {
-      "emitter/index.js": "index.js"
-    }
-  },
-  "main": "./lib/cjs/index.js",
-  "module": "./lib/esm/index.js",
-  "types": "./lib/cjs/index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/socketio/emitter.git"
-  },
+  "name": "solar-testing-for-deploy-backend",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "test": "make test"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "build": "react-scripts build"
   },
-  "files": [
-    "lib/"
-  ]
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.8",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^7.2.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.2",
+    "nodemailer": "^6.9.16",
+    "socket.io": "^4.8.0",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
